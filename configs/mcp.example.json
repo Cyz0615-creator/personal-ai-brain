@@ -1,0 +1,6 @@
+{
+  "gbrain": {
+    "command": "/path/to/bun",
+    "args": ["run", "--cwd", "/path/to/gbrain", "src/cli.ts", "serve"]
+  }
+}

@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 环境变量和密钥
+.env
+*.token
+*_token
+*_key
+*.secret
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 构建产物
+dist/
+build/
+*.tsbuildinfo
+
+# 日志
+*.log

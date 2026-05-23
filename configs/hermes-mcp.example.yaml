@@ -1,0 +1,5 @@
+# 添加到 Hermes config.yaml 的 mcp_servers 部分
+mcp_servers:
+  gbrain:
+    command: /path/to/bun
+    args: ["run", "--cwd", "/path/to/gbrain", "src/cli.ts", "serve"]
